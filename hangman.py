@@ -45,7 +45,7 @@ for letter in display:
     display_list.append('_')
 
 while not(guess_right): 
-    print(correct_word)
+    #print(correct_word)
     if number_of_guesses != 6:
         if '_' in display_list:
             print('Letters guessed: ', *letters_guessed)
